@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: lightgray;
+}
+
+h2 {
+    text-align: center;
+    background: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+}
